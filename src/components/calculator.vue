@@ -83,6 +83,7 @@ export default {
         parseFloat(this.current),
         parseFloat(this.previous)
       )}`;
+      this.previous = null;
     },
   },
 };
